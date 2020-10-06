@@ -1,13 +1,14 @@
 body{
-    color: #0f0cc7;
+    color: 	#000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     text-transform: uppercase;
     text-align: center;
+    color: #ebc862;
 }
 h2{
-    background-color: #0b82a7;
+    background-color: #ad2d2d;
     color: #FFFFFF;
 }
 nav ul{
@@ -18,7 +19,7 @@ nav ul li{
     display: inline-block;
     margin: 10px;
     /*padding: 5px;*/
-    background-color: #0b82a7;
+    background-color: #ad2d2d;
 }
 nav ul li a{
     text-decoration: none;
@@ -29,12 +30,15 @@ nav ul li a{
 
 table thead tr th{
     text-decoration: none;  
-    background-color: #71880c;
+    background-color: #ebc862;
 }
 
 table tbody tr td{
     text-decoration: none;  
-    background-color: #29c28f;
+    background-color: #d17171;
 }
 
-
+img{
+    display:block;
+    margin:auto;
+}

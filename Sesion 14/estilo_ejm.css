@@ -1,0 +1,11 @@
+p{
+    background-color: green;
+}
+img{
+    float: right;
+    width: 290px;
+}
+.fecha{
+    float: right;
+    background-color: yellow;
+}

@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head" "nav section aside" "foot foot foot";
+}
+
+.a{
+    grid-area: head;
+    background: mediumpurple;
+}
+.b{
+    grid-area: nav;
+    background: rgb(0, 153, 255);
+}
+.c{
+    grid-area: section;
+    background: rgb(61, 7, 168);
+}
+.d{
+    grid-area: aside;
+    background: rgb(167, 17, 212);
+}
+.e{
+    grid-area: foot;
+    background: rgb(155, 87, 201);
+}
+

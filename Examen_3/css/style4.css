@@ -1,0 +1,30 @@
+section .contacto-form{
+    display: inline-block;
+    width: 60%;
+}
+section .contacto-inf{
+    width: 35%;
+    float: right;
+}
+.contacto-form form{
+    background-color: #C5F4E0;
+    padding: 15px;
+}
+.contacto-form form input,
+.contacto-form form textarea{
+    width: 98%;
+    background-color: #4A525A;
+    color: #EBEEFF;
+}
+.contacto-form form button{
+    background-color: #274156;
+    color: #EBEEFF;
+    border: 1px solid  #1C6E8C;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-top: 15px;
+}
+.contacto-inf{
+    margin-top: 50px;
+}
+

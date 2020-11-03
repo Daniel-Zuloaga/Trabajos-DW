@@ -1,0 +1,26 @@
+.section .proyecto{
+    width: 20%;
+    display: inline-block;
+    margin-right: 30px;
+}
+.section .proyecto h3{
+    font-style: italic;
+}
+.section .proyecto img{
+    display: block;
+    width: 100%;
+}
+.section .proyecto .a-button{   
+    display: block;
+    margin: 135px;
+    margin-left: 70px;
+    width: 70%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #ebc862;
+    border: 1px solid  #314987;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: none; 
+}

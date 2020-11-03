@@ -1,0 +1,16 @@
+.section .noticia{
+    padding: 15px;
+    margin: auto;
+    width: 40%;
+    border: 1px solid #274156;
+    background-color: #4A525A;
+    margin-top: 35px;
+}
+.section .noticia button{
+    background-color: #1C6E8C;
+    color: #EBEEFF;
+    border: 1px solid  #274156;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-top: 15px;
+}

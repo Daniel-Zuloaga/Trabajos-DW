@@ -1,0 +1,113 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 170px 30px auto 20% 20%;
+    grid-template-areas:"header header header header header" "nav nav nav nav nav"
+    "section section section section aside" "footer footer footer footer footer";
+}
+.header{
+    grid-area: header;
+    background-color: #48A9A6;
+}
+.nav{
+    grid-area: nav;
+    background: #ad2d2d; 
+    margin: 0%;      
+}
+.nav ol{
+    margin: 0%;
+}
+.section{
+    grid-area: section;    
+    color: black;
+    padding-left: 5%;
+}
+.aside{
+    grid-area: aside;
+    background-color: #6ddbd8;
+}
+.footer{
+    grid-area: footer;
+    background-color: black;    
+}
+.header img{
+    float: left;
+    margin: auto;
+    display: block;
+    height: 160px;
+    padding: 0.5%;
+}
+.section .noticia img{
+    float: right;
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 350px;
+    margin-right: 15px;
+}
+nav ol li{
+    margin-right: 30px;
+    display: inline-block;   
+    border: 1px solid  black;
+}
+nav ol li a{
+    padding: 5px 50px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.navegacion{
+    background-color:#ebc862;
+}
+.navegacion a{
+    color: black;
+}
+.pie{
+    display: inline-block;
+    width: 18%;
+}
+header a{
+    float: right;
+    color: black;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.footer .wb{    
+    background-color: black;
+    color: white;    
+    text-align: center;
+}
+.footer .wb a{
+    margin: 0%;
+}
+footer div div img{
+    height: 150px;
+    padding-left: 10px;
+}
+.footer div ul li a{
+    text-decoration: none;
+    color: black;
+}
+aside nav{
+    width: 80%;
+    margin: 20px auto;
+    background-color:#48A9A6;
+    padding: 10px;
+}
+
+.aside nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.section article img{
+    display: block;
+}
+.section article h1{
+    text-transform: uppercase;    
+    color: black;
+}
+.footer .extra{
+    background-color: #48A9A6;
+}
+

@@ -1,24 +1,25 @@
-.grid{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 170px 30px auto 20% 20%;
-    grid-template-areas:"header header header header header" "nav nav nav nav nav"
-    "section section section section aside" "footer footer footer footer footer";
-}
 
 main .header{
-    grid-area: header;
+   
     background-color: #48A9A6;
 }
 
+main header h1{
+    margin-left: 30px;
+}
+
+main header h2{
+    margin-left: 30px;
+}
+
 main .nav{
-    grid-area: nav;
+   
     background: #ad2d2d; 
     margin: 0%;    
 }
 
 nav ol{
-    margin: 0.2%;
+    margin: 0%;
 }
 
 main nav ol li{
@@ -34,12 +35,37 @@ main nav ol li a{
     color: white;
 }
 
-main .section{
-    grid-area: section;    
-    color: black;
-    padding-left: 5%;
+main section .div1{
+    background-color: yellowgreen;    
 }
 
-main section table{
-    
+main section .div1 table tr td{
+    margin-left: 30px;      
+    border: 1px solid  black;
+    padding: 2px 20px;
+    text-align: center;
+} 
+
+main section .div2{
+    grid-area: section;    
+    color: black;
+    background-color: seagreen;    
 }
+
+main section .div2 h1{
+    margin-left: 30px;
+}
+
+main section .div3{
+    background-color: yellowgreen;    
+}
+
+main section .div3 table tr td{
+    margin-left: 30px;      
+    border: 1px solid  black;
+    padding: 2px 20px;
+    text-align: center;
+} 
+
+
+

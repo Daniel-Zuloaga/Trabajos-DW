@@ -67,5 +67,12 @@ main section .div3 table tr td{
     text-align: center;
 } 
 
+.div1 table {
+    border: rebeccapurple 5px solid;
+}
+
+.div3 table {
+    border: rgb(13, 152, 170) 5px solid;
+  }
 
 

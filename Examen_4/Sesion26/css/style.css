@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+#cover{
+    background: #222 url('../img/portada.jpg') center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-texto{
+    width: 100%;
+}
+footer{
+    background-color: #222;
+    color: white;
+}
+#footer-copyright{
+    background-color: black;
+}
